@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hierosoft-logistics"
+version = "0.1.0"
+description = "Manage multiple repos and perform actions based on repository state."
+readme = {file = "readme.md", content-type = "text/markdown"}
+license = {file = "LICENSE"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+maintainers = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+keywords = ["repo management", "git", "automation"]
+homepage = "https://github.com/Hierosoft/hierosoft-logistics"
+docs-url = "https://github.com/Hierosoft/hierosoft-logistics"
+repository = "https://github.com/Hierosoft/hierosoft-logistics"
+issues = "https://github.com/Hierosoft/hierosoft-logistics/issues"
+dependencies = []
+optional-dependencies = {dev = ["pytest", "sphinx"]}
+scripts = {regression_suite = "hierosoftlogistics.regression_suite:main"}
+
+[tool.setuptools]
+packages = ["hierosoftlogistics"]
+
+[tool.setuptools.dynamic]
+version = "0.1.0"
+
+[tool.sphinx]
+source-dir = "docs"
+build-dir = "docs/_build"
