@@ -5,7 +5,9 @@ This document also functions as a claim of copyright to the scope described in t
 
 The project author(s) hereby claim copyright and claim direct human origin to any and all content in the subsections of this document, where scope is defined to the best of the editor's ability, including the subsection names themselves, unless where stated, and unless implied such as by context, being copyrighted or trademarked elsewere, or other means of statement or implication according to law in applicable jurisdiction(s).
 
-Document editor: {{ organization }}
+Document editor: Hierosoft LLC
+
+Project author: Hierosoft LLC
 
 This document is a voluntary of how and where content in or used by this project was produced by LLM(s) or any tools that are "trained" in any way.
 
